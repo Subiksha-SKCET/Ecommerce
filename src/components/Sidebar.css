@@ -1,0 +1,35 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #000000;
+    color: #c9a5b1;
+    padding: 20px;
+    position: fixed;
+    top: -30;
+    left: 0;
+    overflow-y: auto;
+}
+
+.sidebar-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-radius: 7px;
+
+}
+
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.sidebar-menu li {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidebar-menu li:hover {
+    background-color: #ffffff2b;
+}
